@@ -1,0 +1,79 @@
+/* el asterisco es selector universal RESET */
+
+
+*{
+margin-left: 5px;
+padding: 5;
+margin-right: 5px;
+}
+
+
+div {
+    background-color: rgb(178, 165, 223);
+ 
+    width: 100%; /* ancho */
+    height: 140px; /* alto */   
+    padding: 2px;
+    
+ }
+ 
+
+.img-logo {
+    width: 350px;
+}
+
+h1 {
+    color: #4d0c97;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h3 {
+    color: #212221;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.subtitulo {
+    color: #0c1569;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#parrafo {
+    color: rgb(51, 51, 99);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+/*herencia y cascada*/
+
+form {
+    color: rgb(40, 44, 65);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 10px;
+}
+
+ol{
+    list-style: none;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-color{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+p{
+    color: #212221;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
