@@ -2,15 +2,13 @@
 
 
 *{
-margin-left: 5px;
-padding: 5;
-margin-right: 5px;
+margin-left: 0px;
+padding: 0;
+margin-right: 0px;
 }
 
 
 div {
-    background-color: rgb(178, 165, 223);
- 
     width: 100%; /* ancho */
     height: 140px; /* alto */   
     padding: 2px;
@@ -19,7 +17,7 @@ div {
  
 
 .img-logo {
-    width: 350px;
+    width: 200px;
 }
 
 h1 {
@@ -66,6 +64,27 @@ ol{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.rowFlex {
+	display: flex; /* propiedad que permite aplicar flexbox sobre contenedor padre*/
+	flex-direction: row; /*elegimos orientación sobre eje X o Y -*/	
+	flex-wrap: nowrap; /* obligamos o no (a los items hijos), a adaptarse al ancho del contendor padre */
+	align-items: center;
+    width: 100%;
+}
+.navFlex{
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	justify-content: flex-end; /*organizar los elementos:  center, flex-start, flex-end, space-around, space-between, spave-evenly */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    justify-content: space-evenly;
+
+}
+
+
+
 .footer-color{
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
@@ -77,3 +96,50 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
+
+a{
+    color: rgb(37, 3, 77);
+    text-decoration: none;
+}
+
+header, footer{
+    background-color: #ffffff;
+    /* vh significa Viewport Height "Pantalla del navegador */
+    height: 20vh;
+}
+
+main{
+    display: flex;
+}
+
+.img-alto{
+    height: 200px;
+}
+
+.img-1{
+background-image: url(../recursos/img01.jpeg);
+   
+background-color: #100636;
+    width: 33vw;
+    height: 50vw;
+
+}
+
+.img-2{
+    background-image: url(../recursos/img02.jpeg);
+
+    background-color: #100636;
+    width: 33vw;
+    height: 50vw;
+
+}
+
+.img-3{
+    background-image: url(../recursos/img03.jpeg);
+
+    background-color: #100636;
+    width: 33vw;
+    height: 50vw;
+
+}
+

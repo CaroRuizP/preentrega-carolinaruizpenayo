@@ -1,0 +1,98 @@
+/* colores
+Paleta de Colore
+
+Azul Oscuro #464655
+Gris #94958B
+Celeste 1 #B7B6C1
+Celeste 2 #D5CFE1
+Clarito #EDDFEF
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Caveat:wght@600&family=Poppins:wght@200;300;400;500&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-flex{
+background-color: #464655;
+display: flex;
+flex-direction: column;
+align-items: center;
+/*width: 200vh;*/
+}
+
+.header-flex a{
+    color: #B7B6C1;
+    text-decoration: none;
+}
+
+.img-logo{
+    width: 150px;
+    margin: 0px;
+
+}
+
+.header-flex ul{
+
+    display: flex;
+    list-style: none;    
+    /*width: 100vw;*/
+}
+
+.header-flex li{
+    margin: 1rem;
+}
+
+/*CONTENIDO PRINCIPAL*/
+
+.banner-hero{
+    background-image: url('../recursos/img-hero.jpeg');
+    height: 70vh;
+    background-size: cover;
+}
+
+.banner-hero h1{
+    text-align: center;
+    color: #464655;
+    position:relative;
+    top: 81%;
+}
+
+.producto{
+    width: 50vw;
+    text-align: center;
+    margin: 2px;
+    font-size: 15px;
+margin-top: 1rem;
+}
+
+.producto img{
+    width: 150px;
+    height: 150px;
+
+}
+
+/*GRILLA DE PRODUCTOS*/
+
+.productos-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around
+
+}
+
+/*Footer*/
+
+.footer{
+    background-color: #B7B6C1;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.footer p{
+    text-align: center;
+}

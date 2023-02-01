@@ -1,75 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="stylesheet" href="./css/estilos.css">
-    
+
+    <link rel="stylesheet" href="./css/style.css">
+
     <title>JS Troqueles</title>
 
 </head>
+
 <body>
 
-        <!-- Encabezado -->
-        <header>
-            <div>
-            <!-- Logo-->
-             <a href="./index.html">
-                <img src="./recursos/logo-js.png" alt="Logo marca JS" class="img-logo">
-            </a>
-        </div>
-<nav>
-    <ol>
-        <li><a href="index.html">Home Nueva</a></li>
-        <li><a href="./secciones/nosotros.html">Acerca de nosotros</a></li>
-        <li><a href="./secciones/servicios.html">Servicios</a></li>
-        <li><a href="./secciones/ubicacion.html">Ubicación</a></li>
-        <li><a href="./secciones/contacto.html">Contacto</a></li>
-    </ol>
+    <header class="header-flex">
+        <!-- Logo-->
+        <a href="./index.html">
+            <img src="./recursos/logo-js-gris.jpeg" alt="Logo marca JS" class="img-logo">
+        </a>
+        <nav>
 
-</nav>
-        </header>
+            <ul>
+                <li><a href="./secciones/nosotros.html">Nosotros</a></li>
+                <li><a href="./secciones/servicios.html">Servicios</a></li>
+                <li><a href="./secciones/ubicacion.html">Ubicación</a></li>
+                <li><a href="./secciones/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
- <!-- Contenido principal -->
- 
- <main>
 
-<table border="0" cellpadding="4" cellspacing="5">
-    <thead>
-    <th><h2 class="subtitulo">Diseño Cad</h2></th>
-    <th><h2 class="subtitulo">Impresión</h2> </th>
-    <th><h2 class="subtitulo">Fabricación de troqueles</h2></th>
-    <th><h2 class="subtitulo">Materiales</h2></th>
-    </thead>
+    <!-- Contenido principal -->
 
-   
-<tbody>   
-<tr>
-    <td><p id="parrafo">Desarrollo gráfico del troquel a través del programa CAD que permite una alta exactitud de diseñar la matriz</p></td>
-    <td><p id="parrafo">Impresiones realizadas en escala 1:1 mediante impresoras de gran formato</p></td>
-    <td><Realizados id="parrafo">Realizados con flejes SANDVICK en un plazo máximo de 72hs.</p></td>
-    <td><p id="parrafo">Realizados con flejes SANDVICK en un plazo máximo de 72hs.</p></td>
-</tr>
+    <main>
+        <section class="banner-hero">
+            <h1>Troqueles para la industria gráfica</h1>
+        </section>
 
-</main>
+        <section class="productos-grid">
 
-</tbody>
+            <article class="producto">
+                <img src="./recursos/foto-producto1.jpeg" alt="Diseño Cad">
+                <div>
+                    <h2>Diseño Cad</h2>
+                    <p>Desarrollo gráfico del troquel a través del programa CAD <br> que permite una alta
+                        exactitud de diseñar la matriz</p>
+                </div>
+                <button>Ver Más</button>
+            </article>
 
-</table>
-<!-- Pie de página -->
-<footer>
-   <p> <h3>Datos de contacto</h3></p>
-    
-<p class="footer-color">Lorem ipsum dolor sit amet consectetur</p>
-<p class="footer-color">Lorem ipsum dolor sit amet consectetur</p>
-<p class="footer-color">Lorem ipsum dolor sit amet consectetur</p>
+            <article class="producto">
+                <img src="./recursos/foto-producto2.jpeg" alt="Diseño Cad">
+                <div>
+                    <h2>Fabricación de troqueles</h2>
+                    <p>Realizados con flejes SANDVICK en un plazo máximo de 72hs.</p>
+                </div>
+                <button>Ver Más</button>
+            </article>
 
-<div>Agrego un caja</div>
+            <article class="producto">
+                <img src="./recursos/foto-producto1.jpeg" alt="Diseño Cad">
+                <div>
+                    <h2>Diseño Cad</h2>
+                    <p>Desarrollo gráfico del troquel a través del programa CAD <br> que permite una alta
+                        exactitud de diseñar la matriz</p>
+                </div>
+                <button>Ver Más</button>
+            </article>
 
-</footer>
+            <article class="producto">
+                <img src="./recursos/foto-producto2.jpeg" alt="Diseño Cad">
+                <div>
+                    <h2>Fabricación de troqueles</h2>
+                    <p>Realizados con flejes SANDVICK en un plazo máximo de 72hs.</p>
+                </div>
+                <button>Ver Más</button>
+            </article>
+
+
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>
+        <h3>Datos de contacto</h3>
+        </p>
+
+        <p class="footer-color">Lorem ipsum dolor sit amet consectetur</p>
+        <p class="footer-color">Lorem ipsum dolor sit amet consectetur</p>
+        <p class="footer-color">Lorem ipsum dolor sit amet consectetur</p>
+
+        <div>Agrego un caja</div>
+
+    </footer>
+
 
 </body>
+
 </html>
