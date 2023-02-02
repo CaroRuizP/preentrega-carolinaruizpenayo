@@ -48,6 +48,10 @@ align-items: center;
 
 /*CONTENIDO PRINCIPAL*/
 
+main{
+    background-color:#e8e7ed;
+}
+
 .banner-hero{
     background-image: url('../recursos/img-hero.jpeg');
     height: 70vh;
@@ -61,6 +65,16 @@ align-items: center;
     top: 81%;
 }
 
+.nosotros{
+    height: 20vw;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.nos-h1{
+    margin: 1rem;
+}
+
 .producto{
     width: 50vw;
     text-align: center;
@@ -70,8 +84,7 @@ margin-top: 1rem;
 }
 
 .producto img{
-    width: 150px;
-    height: 150px;
+    width: 40vw;
 
 }
 
@@ -80,7 +93,9 @@ margin-top: 1rem;
 .productos-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    justify-content: space-around
+    justify-content: space-around;
+   margin-top: 3rem;
+
 
 }
 
@@ -90,9 +105,22 @@ margin-top: 1rem;
     background-color: #B7B6C1;
     text-align: center;
     padding: 1rem;
-    margin-top: 1rem;
+   
 }
 
 .footer p{
     text-align: center;
+}
+
+.footer a{
+    color: black;
+}
+
+@media (min-width: 768px){
+
+    .header-flex{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+    }
 }
